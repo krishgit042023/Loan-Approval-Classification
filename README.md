@@ -12,7 +12,7 @@ Loan approval is a critical decision-making process for financial institutions. 
 Source: Kaggle
 Description: The dataset includes details such as applicant income, education, marital status, credit history, loan amount, and approval status.
 Target Variable: Loan_Status (Approved/Not Approved)
-Link: Kaggle Loan Approval Dataset (Add the dataset link here)
+Link: Kaggle Loan Approval Dataset (https://www.kaggle.com/competitions/playground-series-s4e10)
 
 **🛠 Key Features**
 
@@ -35,20 +35,19 @@ EDA: Explore the relationships between features and the target variable.
 Data Cleaning: Handle missing values and outliers.
 Feature Engineering: Encode categorical variables and scale numerical features.
 Model Training: Train classification models such as:
-Logistic Regression
 Decision Tree
 Random Forest
-XGBoost
+Lightgbm
 Model Evaluation: Compare models using metrics like:
 Accuracy
 Precision
 Recall
 F1 Score
-Hyperparameter Tuning: Optimize model performance using GridSearchCV or RandomizedSearchCV.
+Hyperparameter Tuning: Optimize model performance using GridSearchCV.
 Prediction: Predict loan approval status on test data.
 
 **📊 Project Results**
 
-Achieved an accuracy of [Your Result]% on the test dataset.
+Achieved an accuracy of 95.46% on the test dataset.
 Identified key factors influencing loan approvals, such as credit history and income levels.
 Improved decision-making with a clear understanding of feature importance.
